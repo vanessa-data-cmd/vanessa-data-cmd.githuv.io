@@ -1,0 +1,17 @@
+# Environnement virtuel
+my-dbt-env/
+
+# Fichiers de logs générés par DBT
+logs/
+
+# Fichiers de cache
+dbt_modules/
+dbt_packages/
+__pycache__/
+
+# Fichiers personnels
+*.pyc
+*.ipynb_checkpoints/
+
+# Configuration locale de DBT (ne jamais versionner vos mots de passe)
+~/.dbt/

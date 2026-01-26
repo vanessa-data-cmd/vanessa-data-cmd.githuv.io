@@ -1,0 +1,51 @@
+{
+    "path_count": 117,
+    "parsed_path_count": 117,
+    "static_analysis_path_count": 2,
+    "static_analysis_parsed_path_count": 2,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.9497791999892797,
+    "load_macros_elapsed": 0.3465744999994058,
+    "parse_project_elapsed": 0.22064519999548793,
+    "patch_sources_elapsed": 5.700014298781753e-06,
+    "process_manifest_elapsed": 0.00829840000369586,
+    "load_all_elapsed": 1.5502293999888934,
+    "projects": [
+        {
+            "project_name": "formation_dbt",
+            "elapsed": 0.21602760002133437,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.07481049999478273,
+                    "parsed_path_count": 2
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.1390563999884762,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 3
+        },
+        {
+            "project_name": "dbt_mysql",
+            "elapsed": 0.0020263000042177737,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0025175000191666186,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.00014540000120177865,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}
